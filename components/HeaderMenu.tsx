@@ -6,7 +6,7 @@ import React from 'react'
 
 const HeaderMenu = () => {
     const pathname = usePathname();
-    console.log("Current Pathname:", pathname);
+    // console.log("Current Pathname:", pathname);
   return (
     <div className='hidden md:inline-flex w-1/3 items-center gap-7 text-sm capitalize font-semibold text-light-color'>
       {headerData?.map((item) => (
